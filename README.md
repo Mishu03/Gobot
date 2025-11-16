@@ -1,70 +1,109 @@
-🧠 Discord AI Chatbot (Go + OpenAI)
 
-A lightweight and fast AI-powered Discord chatbot built using Golang, DiscordGo, and the OpenAI API.
+---
 
-This bot listens to commands inside Discord and can respond with:
+# 🧠 Discord AI Chatbot (Go + OpenAI)
 
-Latency checks
+A lightweight and fast AI-powered Discord chatbot built using **Golang**, **DiscordGo**, and the **OpenAI API**.
 
-Greetings
+This bot listens to Discord commands and responds with:
 
-AI-generated answers using the !ask command
+* Latency checks
+* Greetings
+* AI-generated answers using the `!ask` command
 
-⭐ Features
-🔹 AI Chat Command
+---
 
-Ask the bot anything:
+## ⭐ Features
 
+### 🔹 AI Chat Command
+
+Ask the bot anything using:
+
+```
 !ask What is Golang?
-
+```
 
 The bot sends your question to OpenAI and replies with an intelligent answer.
 
-🔹 Basic Commands
+### 🔹 Basic Commands
+
+```
 !ping   → Pong!
-!hello  → Friendly greeting
+!hello  → Simple greeting
+```
 
-🔹 Fully written in Go
+### 🔹 Built in Go
 
-Fast, concurrent, and simple to deploy.
+Fast, concurrent, simple to deploy, and easy to extend.
 
-📦 Tech Stack
+---
 
-Go (Golang)
+## 📦 Tech Stack
 
-DiscordGo (Discord API wrapper)
+* **Go (Golang)**
+* **DiscordGo** – Discord API wrapper
+* **OpenAI API**
+* **Environment variables** for secure key management
 
-OpenAI API
+---
 
-Environment variables for secure key management
+## 🚀 Getting Started
 
-🚀 Getting Started
-1. Clone the repo
+### 1. Clone the Repository
+
+```
 git clone https://github.com/yourname/discord-go-chatbot.git
 cd discord-go-chatbot
+```
 
-2. Set environment variables
+### 2. Set Environment Variables
+
+```
 setx DISCORD_BOT_TOKEN "your-bot-token"
 setx OPENAI_API_KEY "your-openai-key"
+```
 
-3. Run the bot
+> Restart your terminal after setting them.
+
+### 3. Run the Bot
+
+```
 go run main.go
+```
 
-📁 Project Structure
+---
+
+## 📁 Project Structure
+
+```
 /discord-bot
 │── main.go
 │── go.mod
 │── README.md
+```
 
-🎯 Commands
-Command	Description
-!ping	Check if bot is alive
-!hello	Simple greeting
-!ask <question>	Ask AI any question
-🤝 Contributions
+---
 
-Feel free to open issues or submit PRs!
+## 🎯 Bot Commands
 
-📄 License
+| Command           | Description               |
+| ----------------- | ------------------------- |
+| `!ping`           | Check if the bot is alive |
+| `!hello`          | Simple greeting           |
+| `!ask <question>` | Ask the AI anything       |
 
-MIT License
+---
+
+## 🤝 Contributions
+
+Contributions, issues, and feature requests are welcome.
+Feel free to submit a PR!
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+e!
